@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import { products, customers, reviews } from './data.js'; // Ensure this path is correct
+import { products, customers, reviews } from './data.mjs'; // Ensure this path is correct
 
 const app = express();
 const PORT = process.env.PORT || 3000;

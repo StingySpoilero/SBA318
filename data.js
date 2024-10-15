@@ -1,1 +1,0 @@
-const { products, customers, reviews } = require('./data');
